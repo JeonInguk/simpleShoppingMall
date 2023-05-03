@@ -1,0 +1,284 @@
+{
+  "dummyData": [
+    {
+      "id": 1,
+      "price": 70710,
+      "title": "AKG Y500 블루투스 헤드폰",
+      "image": "https://dummyimage.com/600x400/000/fff&text=AKG+Y500",
+      "description": "고음질 블루투스 헤드폰"
+    },
+    {
+      "id": 2,
+      "price": 39000,
+      "title": "제이블 클립 3",
+      "image": "https://dummyimage.com/600x400/000/fff&text=JBL+Clip+3",
+      "description": "소형 블루투스 스피커"
+    },
+    {
+      "id": 3,
+      "price": 94360,
+      "title": "Sennheiser HD 660 S",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Sennheiser+HD+660+S",
+      "description": "고음질 오버이어 헤드폰"
+    },
+    {
+      "id": 4,
+      "price": 24500,
+      "title": "코디시 DJ100",
+      "image": "https://dummyimage.com/600x400/000/fff&text=코디시+DJ100",
+      "description": "DJ용 헤드폰"
+    },
+    {
+      "id": 5,
+      "price": 199000,
+      "title": "반스 오디오 리미티드 에디션",
+      "image": "https://dummyimage.com/600x400/000/fff&text=반스+오디오+리미티드+에디션",
+      "description": "리미티드 에디션 스피커"
+    },
+    {
+      "id": 6,
+      "price": 19000,
+      "title": "파이오니아 이어폰 SE-CL502T",
+      "image": "https://dummyimage.com/600x400/000/fff&text=파이오니아+이어폰+SE-CL502T",
+      "description": "고음질 이어폰"
+    },
+    {
+      "id": 7,
+      "price": 199000,
+      "title": "Audio-Technica ATH-M50xBT",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Audio-Technica+ATH-M50xBT",
+      "description": "블루투스 헤드폰"
+    },
+    {
+      "id": 8,
+      "price": 45000,
+      "title": "Harman Kardon Onyx Studio 6",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Harman+Kardon+Onyx+Studio+6",
+      "description": "블루투스 스피커"
+    },
+    {
+      "id": 9,
+      "price": 63100,
+      "title": "Bose SoundLink Revolve Bluetooth 스피커",
+      "image": "https://cdn.pixabay.com/photo/2021/03/05/21/03/speaker-6071752_1280.jpg",
+      "description": "놀라운 소리와 충분한 배터리 수명을 제공하는 휴대용 블루투스 스피커입니다."
+    },
+    {
+      "id": 10,
+      "price": 42500,
+      "title": "Shure SM7B 다이나믹 마이크",
+      "image": "https://cdn.pixabay.com/photo/2017/10/11/09/21/microphone-2839377_1280.jpg",
+      "description": "전문 스튜디오에서도 사용되는 고품질 다이나믹 마이크입니다."
+    },
+    {
+      "id": 11,
+      "price": 23000,
+      "title": "AKG Pro Audio K240 Studio 오버 이어헤드 헤드폰",
+      "image": "https://cdn.pixabay.com/photo/2015/02/18/16/03/headphone-641654_1280.jpg",
+      "description": "음악과 사운드 디자인에 대한 고수준의 성능을 제공하는 오버 이어헤드 헤드폰입니다."
+    },
+    {
+      "id": 12,
+      "price": 54000,
+      "title": "Sennheiser HD 660 S 고급 오버 이어 헤드폰",
+      "image": "https://cdn.pixabay.com/photo/2017/11/21/17/47/headphones-2963147_1280.jpg",
+      "description": "고급스러운 디자인과 함께 음악 및 사운드 작업을 위한 뛰어난 성능을 제공하는 오버 이어헤드 헤드폰입니다."
+    },
+    {
+      "id": 13,
+      "price": 71000,
+      "title": "JBL Professional 305P MkII 스튜디오 모니터",
+      "image": "https://cdn.pixabay.com/photo/2017/10/19/07/11/music-2862426_1280.jpg",
+      "description": "스튜디오 모니터로 사용하기에 적합한 고품질 스피커입니다."
+    },
+    {
+      "id": 1,
+      "price": 70710,
+      "title": "AKG Y500 블루투스 헤드폰",
+      "image": "https://dummyimage.com/600x400/000/fff&text=AKG+Y500",
+      "description": "고음질 블루투스 헤드폰"
+    },
+    {
+      "id": 2,
+      "price": 39000,
+      "title": "제이블 클립 3",
+      "image": "https://dummyimage.com/600x400/000/fff&text=JBL+Clip+3",
+      "description": "소형 블루투스 스피커"
+    },
+    {
+      "id": 3,
+      "price": 94360,
+      "title": "Sennheiser HD 660 S",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Sennheiser+HD+660+S",
+      "description": "고음질 오버이어 헤드폰"
+    },
+    {
+      "id": 4,
+      "price": 24500,
+      "title": "코디시 DJ100",
+      "image": "https://dummyimage.com/600x400/000/fff&text=코디시+DJ100",
+      "description": "DJ용 헤드폰"
+    },
+    {
+      "id": 5,
+      "price": 199000,
+      "title": "반스 오디오 리미티드 에디션",
+      "image": "https://dummyimage.com/600x400/000/fff&text=반스+오디오+리미티드+에디션",
+      "description": "리미티드 에디션 스피커"
+    },
+    {
+      "id": 6,
+      "price": 19000,
+      "title": "파이오니아 이어폰 SE-CL502T",
+      "image": "https://dummyimage.com/600x400/000/fff&text=파이오니아+이어폰+SE-CL502T",
+      "description": "고음질 이어폰"
+    },
+    {
+      "id": 7,
+      "price": 199000,
+      "title": "Audio-Technica ATH-M50xBT",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Audio-Technica+ATH-M50xBT",
+      "description": "블루투스 헤드폰"
+    },
+    {
+      "id": 8,
+      "price": 45000,
+      "title": "Harman Kardon Onyx Studio 6",
+      "image": "https://dummyimage.com/600x400/000/fff&text=Harman+Kardon+Onyx+Studio+6",
+      "description": "블루투스 스피커"
+    },
+    {
+      "id": 9,
+      "price": 63100,
+      "title": "Bose SoundLink Revolve Bluetooth 스피커",
+      "image": "https://cdn.pixabay.com/photo/2021/03/05/21/03/speaker-6071752_1280.jpg",
+      "description": "놀라운 소리와 충분한 배터리 수명을 제공하는 휴대용 블루투스 스피커입니다."
+    },
+    {
+      "id": 10,
+      "price": 42500,
+      "title": "Shure SM7B 다이나믹 마이크",
+      "image": "https://cdn.pixabay.com/photo/2017/10/11/09/21/microphone-2839377_1280.jpg",
+      "description": "전문 스튜디오에서도 사용되는 고품질 다이나믹 마이크입니다."
+    },
+    {
+      "id": 11,
+      "price": 23000,
+      "title": "AKG Pro Audio K240 Studio 오버 이어헤드 헤드폰",
+      "image": "https://cdn.pixabay.com/photo/2015/02/18/16/03/headphone-641654_1280.jpg",
+      "description": "음악과 사운드 디자인에 대한 고수준의 성능을 제공하는 오버 이어헤드 헤드폰입니다."
+    },
+    {
+      "id": 12,
+      "price": 54000,
+      "title": "Sennheiser HD 660 S 고급 오버 이어 헤드폰",
+      "image": "https://cdn.pixabay.com/photo/2017/11/21/17/47/headphones-2963147_1280.jpg",
+      "description": "고급스러운 디자인과 함께 음악 및 사운드 작업을 위한 뛰어난 성능을 제공하는 오버 이어헤드 헤드폰입니다."
+    },
+    {
+      "id": 13,
+      "price": 71000,
+      "title": "JBL Professional 305P MkII 스튜디오 모니터",
+      "image": "https://cdn.pixabay.com/photo/2017/10/19/07/11/music-2862426_1280.jpg",
+      "description": "스튜디오 모니터로 사용하기에 적합한 고품질 스피커입니다."
+    },
+    {
+      "id": 14,
+      "price": 50670,
+      "title": "[온스테이지] 뮤지션 마이크스탠드",
+      "image": "https://dummyimage.com/600x400/000/fff&text=%EC%98%A8%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%80",
+      "description": "뮤지션들이 사용하는 마이크스탠드입니다."
+    },
+    {
+      "id": 15,
+      "price": 38715,
+      "title": "[쉐어마이크] 녹음용 마이크",
+      "image": "https://dummyimage.com/600x400/000/fff&text=%EC%89%90%EC%96%B4%EB%A7%88%EC%9D%B4%ED%81%AC",
+      "description": "녹음에 사용하는 마이크로 깔끔한 음질을 느껴보세요."
+    },
+    {
+      "id": 16,
+      "price": 81461,
+      "title": "[베이스앰프] 베이스용 앰프",
+      "image": "https://dummyimage.com/600x400/000/fff&text=%EB%B2%A0%EC%9D%B4%EC%8A%A4%EC%95%B0%ED%94%84",
+      "description": "베이스 기타 연주에 최적화된 앰프입니다."
+    },
+    {
+      "id": 17,
+      "price": 23814,
+      "title": "[스피커] 블루투스 스피커",
+      "image": "https://dummyimage.com/600x400/000/fff&text=%EC%8A%A4%ED%94%BC%EC%BB%A4",
+      "description": "블루투스 기능이 내장된 휴대용 스피커입니다."
+    },
+    {
+      "id": 18,
+      "price": 98369,
+      "title": "[이어폰] 무선 이어폰",
+      "image": "https://dummyimage.com/600x400/000/fff&text=%EC%9D%B4%EC%96%B4%ED%8F%B0",
+      "description": "무선으로 음악을 감상할 수 있는 이어폰입니다."
+    },
+    {
+      "id": 19,
+      "price": 94700,
+      "title": "[음향기기] Fender Stratocaster",
+      "image": "https://dummyimage.com/300x300/000/fff&text=Fender+Stratocaster",
+      "description": "펜더의 최고봉인 스트라토캐스터입니다"
+    },
+    {
+      "id": 20,
+      "price": 23200,
+      "title": "[음향기기] BOSS DS-1 디스트션 페달",
+      "image": "https://dummyimage.com/300x300/000/fff&text=BOSS+DS-1",
+      "description": "보스의 대표적인 디스트션 페달입니다"
+    },
+    {
+      "id": 21,
+      "price": 45100,
+      "title": "[음향기기] Shure SM7B",
+      "image": "https://dummyimage.com/300x300/000/fff&text=Shure+SM7B",
+      "description": "셔어의 대표적인 다이나믹 마이크인 SM7B입니다"
+    },
+    {
+      "id": 22,
+      "price": 63900,
+      "title": "[음향기기] Sennheiser HD 650",
+      "image": "https://dummyimage.com/300x300/000/fff&text=Sennheiser+HD+650",
+      "description": "저음과 중음이 균형잡힌 고음질을 자랑하는 헤드폰입니다"
+    },
+    {
+      "id": 23,
+      "price": 56700,
+      "title": "[음향기기] Pioneer CDJ-2000NXS2",
+      "image": "https://dummyimage.com/300x300/000/fff&text=Pioneer+CDJ-2000NXS2",
+      "description": "DJ의 필수템 중 하나인 Pioneer CDJ-2000NXS2입니다"
+    },
+    {
+      "id": 24,
+      "price": 49800,
+      "title": "[음향기기] Yamaha HS7 스튜디오 모니터",
+      "image": "https://dummyimage.com/300x300/000/fff&text=Yamaha+HS7",
+      "description": "고음질을 자랑하는 스튜디오 모니터입니다"
+    },
+    {
+      "id": 25,
+      "price": 39400,
+      "title": "[음향기기] AKG K240 스튜디오 헤드폰",
+      "image": "https://dummyimage.com/300x300/000/fff&text=AKG+K240",
+      "description": "AKG의 대표적인 스튜디오 헤드폰입니다"
+    },
+    {
+      "id": 26,
+      "price": 19800,
+      "title": "[제품명] 블루투스 이어폰",
+      "description": "고음질 음악 감상을 위한 블루투스 이어폰",
+      "image": "https://example.com/image1.jpg"
+    },
+    {
+      "id": 27,
+      "price": 79000,
+      "title": "[제품명] 무선 헤드셋",
+      "description": "크리스탈 클리어 사운드를 제공하는 무선 헤드셋",
+      "image": "https://example.com/image2.jpg"
+    }
+  ]
+}
