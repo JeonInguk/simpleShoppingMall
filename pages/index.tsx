@@ -1,6 +1,6 @@
 import { getSellingItem } from "@/apis/axios";
 import SellingItem from "@/components/common/SellingItem";
-import { useQuery } from "@tanstack/react-query";
+import { QueryClient, dehydrate, useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 
 export default function Home() {
@@ -40,4 +40,14 @@ export default function Home() {
       </div>
     </>
   );
+}
+
+export async function getServerSideProps() {
+  const queryClient = new QueryClient();
+  await queryClient.prefetchQuery(["selledItem"], () => getSellingItem);
+  return {
+    props: {
+      dehydrateedState: dehydrate(queryClient),
+    },
+  };
 }
