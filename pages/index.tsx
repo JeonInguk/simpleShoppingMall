@@ -24,7 +24,7 @@ export default function Home() {
             setPage((presentPage) => Math.max(presentPage - 1, 0));
           }}
           disabled={page === 1}
-          className="mr-10"
+          className={page === 1 ? "mr-10 w-28 h-10 rounded-xl bg-slate-600" : "mr-10 w-28 h-10 bg-orange-200 rounded-xl hover:bg-orange-300"}
         >
           이전페이지
         </button>
@@ -33,6 +33,7 @@ export default function Home() {
             setPage((presentPage) => presentPage + 1);
           }}
           disabled={page === 3}
+          className={page === 3 ? "mr-10 w-28 h-10 rounded-xl bg-slate-600" : "w-28 h-10 bg-orange-200  hover:bg-orange-300 rounded-xl"}
         >
           다음페이지
         </button>
