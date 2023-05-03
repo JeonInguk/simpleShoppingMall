@@ -4,9 +4,8 @@ import { QueryClient, dehydrate, useQuery } from "@tanstack/react-query";
 import { useState } from "react";
 
 export default function Home() {
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(1);
   const { data, isPreviousData } = useQuery({ queryKey: ["selledItem", page], queryFn: () => getSellingItem(page), keepPreviousData: true });
-  console.log(page);
 
   return (
     <>
@@ -24,7 +23,7 @@ export default function Home() {
           onClick={() => {
             setPage((presentPage) => Math.max(presentPage - 1, 0));
           }}
-          disabled={page === 0}
+          disabled={page === 1}
           className="mr-10"
         >
           이전페이지
@@ -33,7 +32,7 @@ export default function Home() {
           onClick={() => {
             setPage((presentPage) => presentPage + 1);
           }}
-          disabled={page === 2}
+          disabled={page === 3}
         >
           다음페이지
         </button>
@@ -44,7 +43,7 @@ export default function Home() {
 
 export async function getServerSideProps() {
   const queryClient = new QueryClient();
-  await queryClient.prefetchQuery(["selledItem"], () => getSellingItem);
+  await queryClient.prefetchQuery(["selledItem"], () => getSellingItem(1));
   return {
     props: {
       dehydrateedState: dehydrate(queryClient),
