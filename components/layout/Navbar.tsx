@@ -7,7 +7,7 @@ export default function Navbar() {
   const router = useRouter();
   return (
     <>
-      <div className="fixed display: flex flex-nowrap justify-between items-center bg-gray-900 h-20 opacity-90 w-full">
+      <div className="fixed top-0 display: flex flex-nowrap justify-between items-center bg-gray-900 h-20 opacity-90 w-full">
         <Image src={sirenlogo} alt="Header logo" width={130} height={50} className="ml-5 cursor-pointer" onClick={() => router.push("/")}></Image>
         <div className="display: flex items-center">
           <Link href="/" className="text-white mr-7">
