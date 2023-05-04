@@ -18,7 +18,7 @@ export default function Home() {
           );
         })}
       </div>
-      <div className="display: flex flex-row my-20 justify-center">
+      <div className=" display: flex flex-row my-20 justify-center items-center w-full">
         <button
           onClick={() => {
             setPage((presentPage) => Math.max(presentPage - 1, 0));
