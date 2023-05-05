@@ -1,6 +1,7 @@
 import { QueryClient, dehydrate, useInfiniteQuery } from "@tanstack/react-query";
 import { getBasketItem } from "@/apis/axios";
 import React from "react";
+import BasketItem from "@/components/common/BasketItem";
 
 export default function MyShoppingBasket() {
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage, isFetching } = useInfiniteQuery({
@@ -14,13 +15,7 @@ export default function MyShoppingBasket() {
   return (
     <>
       <div className="pt-32">
-        {data?.pages.map((group, i) => (
-          <React.Fragment key={i}>
-            {group.map((project: SellingItem) => (
-              <p key={project.id}>{project.title}</p>
-            ))}
-          </React.Fragment>
-        ))}
+        <BasketItem pagesData={data} />
       </div>
       <div>
         <button onClick={() => fetchNextPage()} disabled={!hasNextPage || isFetchingNextPage}>
