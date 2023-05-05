@@ -1,7 +1,8 @@
 import { QueryClient, dehydrate, useInfiniteQuery } from "@tanstack/react-query";
 import { getBasketItem } from "@/apis/axios";
-import React from "react";
+import React, { useEffect } from "react";
 import BasketItem from "@/components/common/BasketItem";
+import { useInView } from "react-intersection-observer";
 
 export default function MyShoppingBasket() {
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage, isFetching } = useInfiniteQuery({
@@ -11,16 +12,19 @@ export default function MyShoppingBasket() {
       return pages.length + 1;
     },
   });
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      fetchNextPage();
+    }
+  }, [inView]);
 
   return (
     <>
       <div className="pt-32">
         <BasketItem pagesData={data} />
-      </div>
-      <div>
-        <button onClick={() => fetchNextPage()} disabled={!hasNextPage || isFetchingNextPage}>
-          버튼
-        </button>
+        <div ref={ref}></div>
       </div>
     </>
   );
