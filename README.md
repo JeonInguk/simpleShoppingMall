@@ -2,6 +2,12 @@
 ## 실험용 레포 
 React Query의 paginated query, infinite query실험용 간단쇼핑몰입니다.
 
+paginated query
+<img width="1920" alt="스크린샷 2023-07-29 오전 3 13 56" src="https://github.com/JeonInguk/simpleShoppingMall/assets/117060240/7f4a37ba-8bfe-4590-a1d1-e6ff14173fbe">
+
+infinite query
+<img width="1920" alt="스크린샷 2023-07-29 오전 3 14 09" src="https://github.com/JeonInguk/simpleShoppingMall/assets/117060240/5ba492b7-3faa-42f4-9f76-69905a3c0cfd">
+
 
 ## 사용순서
 
