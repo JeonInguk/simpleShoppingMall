@@ -1,6 +1,6 @@
 
 ## 실험용 레포 
-React Query의 paginated query, infinite query실험용 간단쇼핑몰입니다.
+React Query의 paginated query, infinite query를 사용해보기 위해 기획한 간단쇼핑몰입니다.
 
 ### paginated query 구현
 <img width="1920" alt="스크린샷 2023-07-29 오전 3 16 05" src="https://github.com/JeonInguk/simpleShoppingMall/assets/117060240/5a351bdc-5b43-4dbd-a2f8-0766143c05fe">
