@@ -18,11 +18,7 @@ React Query의 paginated query, infinite query실험용 간단쇼핑몰입니다
 
 둘째,
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
 ```
 
 
